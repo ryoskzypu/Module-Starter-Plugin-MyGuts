@@ -1,3 +1,6 @@
+[![CI](https://github.com/ryoskzypu/Module-Starter-Plugin-MyGuts/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/ryoskzypu/Module-Starter-Plugin-MyGuts/actions/workflows/ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/ryoskzypu/Module-Starter-Plugin-MyGuts/badge.svg)](https://coveralls.io/github/ryoskzypu/Module-Starter-Plugin-MyGuts)
+
 # Module::Starter::Plugin::MyGuts
 
 This plugin is a subclass of [Module::Starter::Simple](https://metacpan.org/pod/Module%3A%3AStarter%3A%3ASimple)
