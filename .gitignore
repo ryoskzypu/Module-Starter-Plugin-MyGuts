@@ -1,0 +1,32 @@
+MANIFEST
+MANIFEST.bak
+META.*
+MYMETA.*
+
+# Junk
+*.o
+*.bs
+*.tar
+*.tgz
+*.gz
+*.zip
+*.tmp
+*.old
+*.bak
+*.rej
+*.orig
+
+# ExtUtils::MakeMaker
+blib/
+Makefile
+Makefile.old
+pm_to_blib
+
+# Devel::Cover
+cover_db/
+.last_cover_stats
+
+# Devel::NYTProf
+nytprof.out
+
+Module-Starter-Plugin-MyGuts-*
