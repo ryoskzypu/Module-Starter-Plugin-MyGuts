@@ -51,9 +51,20 @@ sub post_create_distro ($self)
         #   distribution files that contain POD to Markdown (with pod2markdown) and put
         #   them in the docs directory.
         my $docs = File::Spec->catdir( $self->{basedir}, 'docs' );
-        ( mkdir $docs )
-          ? $self->progress("Created $docs")
-          : warn "Failed to create docs directory: $!";
+        if ( mkdir $docs ) {
+            $self->progress("Created $docs");
+
+            # Create a stub file so docs is shown on GitHub.
+            my @parts    = split /::/, $self->{main_module};
+            my $filepart = ( pop @parts ) . '.md';
+            my $fname    = File::Spec->catdir( $docs, $filepart );
+
+            $self->create_file( $fname, '' );
+            $self->progress("Created $fname");
+        }
+        else {
+            warn "Failed to create docs directory: $!";
+        }
 
         $self->create_README_md;
     }
