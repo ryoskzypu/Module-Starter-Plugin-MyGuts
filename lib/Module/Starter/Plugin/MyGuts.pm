@@ -343,7 +343,7 @@ sub Makefile_PL_meta_merge ($self)
                         'Devel::Cover'      => '0',
                         'Perl::Critic'      => '0',
                         'Perl::Tidy'        => '0',
-                      },
+                    },
                     requires => {
                         'Test::CPAN::Changes' => '0',
                         'Test::Kwalitee'      => '0',
