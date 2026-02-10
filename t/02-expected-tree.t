@@ -83,7 +83,7 @@ sub diff_recurse ( $dir_a, $dir_b )
 my $temp_dir = tempdir( CLEANUP => 1 );
 
 my $distro         = 'Foo-Bar';
-my $build_dir_orig = catfile( 't/data',   $distro );
+my $build_dir_orig = catfile( 't/data',  $distro );
 my $build_dir_new  = catfile( $temp_dir, $distro );
 
 my $module = $distro =~ s{-}{::}gr;

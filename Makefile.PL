@@ -47,13 +47,11 @@ my %WriteMakefileArgs = (
         prereqs => {
             develop => {
                 recommends => {
-                    'App::CPANTS::Lint'        => '0',
-                    'Data::Printer'            => '0',
-                    'Devel::Cover'             => '0',
-                    'Perl::Critic'             => '0',
-                    'Perl::Tidy'               => '0',
-                    'Pod::Markdown'            => '0',
-                    'Pod::Markdown::Githubert' => '0',
+                    'App::CPANTS::Lint' => '0',
+                    'Data::Printer'     => '0',
+                    'Devel::Cover'      => '0',
+                    'Perl::Critic'      => '0',
+                    'Perl::Tidy'        => '0',
                 },
                 requires => {
                     'Test::CPAN::Changes' => '0',
@@ -66,6 +64,7 @@ my %WriteMakefileArgs = (
             },
             runtime => {
                 recommends => {
+                    'App::pod2gfm'             => 'v1.0.0',
                     'Software::License::MIT_0' => 'v1.0.0',
                 },
             },
