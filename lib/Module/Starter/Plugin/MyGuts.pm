@@ -330,7 +330,6 @@ sub Makefile_PL_meta_merge ($self)
                         eg
                         examples
                         share
-                        t
                         xt
                     >
                 ],
