@@ -407,6 +407,10 @@ sub Changes_guts ($self)
         END
 }
 
+# NOTE:
+#   For consistency, at least make sure to replace the README intro with the POD
+#   description from main module (convert with pod2text).
+#
 # See:
 #   https://neilb.org/2015/10/18/spotters-guide.html#text:~:text=README
 sub README_guts ( $self, $build_instructions )
