@@ -47,9 +47,9 @@ sub post_create_distro ($self)
         # Create docs directory.
         #
         # NOTE:
-        #   To reflect the 'Support and documentation' section, make sure to convert the
-        #   distribution files that contain POD to Markdown (with pod2markdown) and put
-        #   them in the docs directory.
+        #   To reflect the 'Support and documentation' section, make sure to convert
+        #   the distribution files that contain POD to Markdown (with pod2gfm) and
+        #   put them in the docs directory.
         my $docs = File::Spec->catdir( $self->{basedir}, 'docs' );
         if ( mkdir $docs ) {
             $self->progress("Created $docs");
@@ -846,7 +846,7 @@ sub ignores_guts ( $self, $type )
             # NOTE:
             #   Include only specific root dirs or files in the tarball; skip everything else.
             #   This keeps dirs like .github and Markdown files only in version control, e.g.
-            #   README.md, docs directory (contains POD files converted to Markdown with pod2markdown).
+            #   README.md, docs directory (contains POD files converted to Markdown with pod2gfm).
             \A(?!(?>bin|script|examples|eg|lib|t|xt|share|data)/|(?>Makefile\.PL|README|LICENSE|MANIFEST|Changes|INSTALL|CONTRIBUTING|TODO|SECURITY|META\.(?>json|yml))\z)
 
             /MANIFEST(?>\.bak)?\z
