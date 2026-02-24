@@ -177,6 +177,8 @@ sub create_README_md ($self)
 #   https://pause.perl.org/pause/query?ACTION=pause_namingmodules
 #   https://blogs.perl.org/users/neilb/2014/08/the-right-name-for-your-cpan-distribution.html
 #   https://blogs.perl.org/users/neilb/2014/07/give-your-modules-a-good-abstract.html
+#   https://metacpan.org/pod/version
+#   https://metacpan.org/pod/CPAN::Meta::Spec#Dotted-integer-versions
 #   https://www.neilb.org/2015/12/20/specify-perl-version.html
 #   https://old.reddit.com/r/perl/comments/5i4vn9/version_numbers/
 #   https://semver.org/
