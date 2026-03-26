@@ -323,6 +323,8 @@ sub Makefile_PL_guts ( $self, $main_module, $main_pm_file )
 #   https://perlmaven.com/how-to-add-list-of-contributors-to-the-cpan-meta-files
 sub Makefile_PL_meta_merge ($self)
 {
+    my $spdx_exp = $self->{license_record}->spdx_expression // '';
+
     return <<~"END";
         META_MERGE => {
             'meta-spec' => { version => 2 },
@@ -389,6 +391,7 @@ sub Makefile_PL_meta_merge ($self)
             x_contributors => [
                 q{$self->{author_full}},
             ],
+            x_spdx_expression => '$spdx_exp',
         },
     END
 }
