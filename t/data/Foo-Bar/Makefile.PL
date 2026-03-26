@@ -90,6 +90,7 @@ my %WriteMakefileArgs = (
         x_contributors => [
             q{author <author@email>},
         ],
+        x_spdx_expression => 'MIT-0',
     },
 );
 
