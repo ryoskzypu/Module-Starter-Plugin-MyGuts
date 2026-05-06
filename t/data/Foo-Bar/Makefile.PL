@@ -43,6 +43,7 @@ my %WriteMakefileArgs = (
                     'App::CPANTS::Lint' => '0',
                     'Data::Printer'     => '0',
                     'Devel::Cover'      => '0',
+                    'Devel::NYTProf'    => '0',
                     'Perl::Critic'      => '0',
                     'Perl::Tidy'        => '0',
                 },
