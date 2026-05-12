@@ -13,7 +13,7 @@ use Test2::Plugin::UTF8   qw< encoding_only >;
 use File::Spec::Functions qw< catfile curdir updir >;
 use File::Basename        qw< basename >;
 use File::Temp            qw< tempdir >;
-use Text::Diff;
+use Text::Diff 1.45;
 
 use Module::Starter::Plugin::MyGuts;
 
