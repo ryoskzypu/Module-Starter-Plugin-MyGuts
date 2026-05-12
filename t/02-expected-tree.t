@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!perl
 #
 # This test compares files produced by Module::Starter::Plugin::MyGuts against
 # an expected snapshot of the distro tree; they must have the same contents.
