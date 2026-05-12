@@ -116,6 +116,8 @@ ryoskzypu <ryoskzypu@proton.me>
 - [https://neilb.org/2015/09/05/cpan-glossary.html](https://neilb.org/2015/09/05/cpan-glossary.html)
 - [https://neilb.org/2015/10/18/spotters-guide.html](https://neilb.org/2015/10/18/spotters-guide.html)
 - [https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/cpan-packaging.md](https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/cpan-packaging.md)
+- [https://blogs.perl.org/users/tinita/2019/11/perl5-cpan-module-best-practices.html](https://blogs.perl.org/users/tinita/2019/11/perl5-cpan-module-best-practices.html)
+- [https://github.com/cpan-authors/Release-Checklist/blob/master/Checklist.md](https://github.com/cpan-authors/Release-Checklist/blob/master/Checklist.md)
 
 # COPYRIGHT
 

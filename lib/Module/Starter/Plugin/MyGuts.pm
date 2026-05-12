@@ -263,6 +263,8 @@ sub module_guts ( $self, $module, $rtname )
 #   https://blogs.perl.org/users/neilb/2017/04/an-introduction-to-distribution-metadata.html
 #   https://blogs.perl.org/users/neilb/2017/04/dependency-phases-in-cpan-distribution-metadata.html
 #   https://blogs.perl.org/users/neilb/2017/05/specifying-dependencies-for-your-cpan-distribution.html
+#   https://blogs.perl.org/users/tinita/2019/11/perl5-cpan-module-best-practices.html
+#   https://github.com/cpan-authors/Release-Checklist/blob/master/Checklist.md
 sub Makefile_PL_guts ( $self, $main_module, $main_pm_file )
 {
     my $sl_name =
@@ -477,7 +479,7 @@ sub t_guts ( $self, @modules )
 {
     my %t_files;
     my $use_mod;
-    my $shebang = '#!/usr/bin/env perl';
+    my $shebang = '#!perl';
     my $header  = "$shebang\n\n$self->{bp}{header}";
 
     foreach my $mod (@modules) {
@@ -510,7 +512,7 @@ sub t_guts ( $self, @modules )
 sub xt_guts ( $self, @modules )
 {
     my %xt_files;
-    my $shebang = '#!/usr/bin/env perl';
+    my $shebang = '#!perl';
     my $header  = "$shebang\n\n$self->{bp}{header}";
 
     # perlcritic
@@ -1224,6 +1226,14 @@ L<https://neilb.org/2015/10/18/spotters-guide.html>
 =item *
 
 L<https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/cpan-packaging.md>
+
+=item *
+
+L<https://blogs.perl.org/users/tinita/2019/11/perl5-cpan-module-best-practices.html>
+
+=item *
+
+L<https://github.com/cpan-authors/Release-Checklist/blob/master/Checklist.md>
 
 =back
 
