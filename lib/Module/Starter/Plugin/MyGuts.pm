@@ -329,8 +329,9 @@ sub Makefile_PL_meta_merge ($self)
 
     return <<~"END";
         META_MERGE => {
-            'meta-spec' => { version => 2 },
-            no_index    => {
+            'meta-spec'    => { version => 2 },
+            dynamic_config => 0,
+            no_index       => {
                 directory => [
                     qw<
                         eg
