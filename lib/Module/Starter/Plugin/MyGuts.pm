@@ -1230,6 +1230,14 @@ L<https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/cpan-packagi
 
 =item *
 
+L<https://blogs.perl.org/users/neilb/2016/04/the-perl-toolchain-pause-and-cpan.html>
+
+=item *
+
+L<https://blogs.perl.org/users/neilb/2016/04/the-perl-toolchain-developing-your-module.html>
+
+=item *
+
 L<https://blogs.perl.org/users/tinita/2019/11/perl5-cpan-module-best-practices.html>
 
 =item *
