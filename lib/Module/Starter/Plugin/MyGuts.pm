@@ -1226,15 +1226,15 @@ L<https://neilb.org/2015/10/18/spotters-guide.html>
 
 =item *
 
+L<https://neilb.org/2015/09/25/dependencies-model.html>
+
+=item *
+
+L<https://blogs.perl.org/users/neilb/2017/04/an-introduction-to-distribution-metadata.html>
+
+=item *
+
 L<https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/cpan-packaging.md>
-
-=item *
-
-L<https://metacpan.org/pod/Dist::Zilla::Starter#CPAN-DISTRIBUTIONS>
-
-=item *
-
-L<https://metacpan.org/pod/Dist::Zilla::Starter#A-BRIEF-HISTORY-OF-AUTHORING>
 
 =item *
 
@@ -1243,6 +1243,14 @@ L<https://blogs.perl.org/users/neilb/2016/04/the-perl-toolchain-pause-and-cpan.h
 =item *
 
 L<https://blogs.perl.org/users/neilb/2016/04/the-perl-toolchain-developing-your-module.html>
+
+=item *
+
+L<https://metacpan.org/pod/Dist::Zilla::Starter#CPAN-DISTRIBUTIONS>
+
+=item *
+
+L<https://metacpan.org/pod/Dist::Zilla::Starter#A-BRIEF-HISTORY-OF-AUTHORING>
 
 =item *
 
