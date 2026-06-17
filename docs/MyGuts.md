@@ -116,6 +116,8 @@ ryoskzypu <ryoskzypu@proton.me>
 - [https://neilb.org/2015/09/05/cpan-glossary.html](https://neilb.org/2015/09/05/cpan-glossary.html)
 - [https://neilb.org/2015/10/18/spotters-guide.html](https://neilb.org/2015/10/18/spotters-guide.html)
 - [https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/cpan-packaging.md](https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/cpan-packaging.md)
+- [https://metacpan.org/pod/Dist::Zilla::Starter#CPAN-DISTRIBUTIONS](https://metacpan.org/pod/Dist::Zilla::Starter#CPAN-DISTRIBUTIONS)
+- [https://metacpan.org/pod/Dist::Zilla::Starter#A-BRIEF-HISTORY-OF-AUTHORING](https://metacpan.org/pod/Dist::Zilla::Starter#A-BRIEF-HISTORY-OF-AUTHORING)
 - [https://blogs.perl.org/users/neilb/2016/04/the-perl-toolchain-pause-and-cpan.html](https://blogs.perl.org/users/neilb/2016/04/the-perl-toolchain-pause-and-cpan.html)
 - [https://blogs.perl.org/users/neilb/2016/04/the-perl-toolchain-developing-your-module.html](https://blogs.perl.org/users/neilb/2016/04/the-perl-toolchain-developing-your-module.html)
 - [https://blogs.perl.org/users/tinita/2019/11/perl5-cpan-module-best-practices.html](https://blogs.perl.org/users/tinita/2019/11/perl5-cpan-module-best-practices.html)

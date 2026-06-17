@@ -1230,6 +1230,14 @@ L<https://github.com/Perl-Toolchain-Gang/toolchain-site/blob/master/cpan-packagi
 
 =item *
 
+L<https://metacpan.org/pod/Dist::Zilla::Starter#CPAN-DISTRIBUTIONS>
+
+=item *
+
+L<https://metacpan.org/pod/Dist::Zilla::Starter#A-BRIEF-HISTORY-OF-AUTHORING>
+
+=item *
+
 L<https://blogs.perl.org/users/neilb/2016/04/the-perl-toolchain-pause-and-cpan.html>
 
 =item *
